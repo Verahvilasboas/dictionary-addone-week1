@@ -8,8 +8,7 @@ function App() {
       <header className="App-header">
         <img src={bird} className="logo img-fluid" alt="logo" />
 
-        <a href="#" className="btn btn-primary shadow">
-          Search   </a>
+  
       </header>
     </div>
   );
