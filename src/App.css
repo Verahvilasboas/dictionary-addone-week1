@@ -8,3 +8,9 @@
  display: block;
  margin: 0 auto;
 }
+
+.btn{
+  padding: 24px 40px;
+  margin: 20px;
+
+}
