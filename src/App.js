@@ -7,9 +7,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={bird} className="logo img-fluid" alt="logo" />
-
-  
       </header>
+      <body>
+        <button className="btn btn-primary">
+          Search
+        </button>
+      </body>
     </div>
   );
 }
