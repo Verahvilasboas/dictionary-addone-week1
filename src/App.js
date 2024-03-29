@@ -1,5 +1,6 @@
 import bird from "./bird_2.jpg"
 import './App.css';
+import Dictionary from "./Dictionary"
 
 export default App;
 function App() {
@@ -8,11 +9,16 @@ function App() {
       <header className="App-header">
         <img src={bird} className="logo img-fluid" alt="logo" />
       </header>
-      <body>
-        <button className="btn btn-primary">
-          Search
-        </button>
-      </body>
+        <div className="container">
+    <h1>Dictionary</h1>
+    </div>
+      <main>
+
+        <Dictionary />
+      </main>
+      <footer className="app-footer">
+        <small>coded by vera Vilas Boas </small>
+      </footer>
     </div>
   );
 }
