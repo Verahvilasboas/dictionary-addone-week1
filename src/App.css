@@ -54,25 +54,9 @@ h1{
 opacity: 0.9;
 }
 
-.btn{
-  background-color: rgb(144, 132, 128);
-text-decoration: none;
-border: none;
-  width: 80%;
-  padding: 2.5px;
-  margin: 24px 0;
-  margin-left: 226px;
-  border-radius: 0px;
-  display: flexbox;
-    font-size: 24px;
-}
-.btn:hover{
-  background-color: rgb(96, 87, 87);
-}
-
 
 input {
-  width: 220%;
+  width: 100%;
   margin: 24px 0;
   box-sizing: border-box;
   display: block;
@@ -87,9 +71,5 @@ input {
   display: block;
   font-size: 11px;
 }
-.btn{
-  font-size: 18px;
-  width: 100px;
-padding: 6px;
-}
+
 }

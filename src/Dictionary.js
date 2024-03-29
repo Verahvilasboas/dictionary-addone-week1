@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import "./Dictionary.css"
+import iconsearch from "./"
 
 export default function Dictionary(){
 let [keyword, setkeyword] = useState ("");
@@ -17,17 +18,15 @@ alert(`searching for ${keyword}`);
 return (
   <div className="Dictionary">
     <div className="row">
-      <div className="col-3">
+      <div className="col-12">
         <form onSubmit={search}>
           <input
             type="search"
             onChange={handleKeywordChange}
             autoFocus={true}
+            placeholder="Search"
           />
         </form>
-      </div>
-      <div className="col-3">
-        <button className="btn btn-primary">Search</button>
       </div>
     </div>
   </div>
