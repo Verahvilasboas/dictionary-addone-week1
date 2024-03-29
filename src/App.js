@@ -1,25 +1,19 @@
-import logo from './logo.svg';
+import React from "react";
+import bird from "./bird_2.jpg"
 import './App.css';
 
+export default App;
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={bird} className="logo img-fluid" alt="logo" />
+
+        <a href="#" className="btn btn-primary">
+          Search   </a>
       </header>
     </div>
   );
 }
 
-export default App;
+
