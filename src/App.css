@@ -35,7 +35,7 @@ padding: 32px;
 
 .app-footer{
 
- font-size: 12px;
+ font-size: 16px;
   margin: 10px 0;
   font-weight: 400;
   text-align: center;
@@ -44,24 +44,16 @@ backdrop-filter: blur(5px);
 background: transparent;
 }
 
-.container{
-text-align: center;
-background-color: rgb(144, 132, 128);
-opacity: 0.6;
-}
 h1{
   color: rgb(44, 44, 44);
-opacity: 0.9;
 }
 
-
-input {
-  width: 100%;
-  margin: 24px 0;
-  box-sizing: border-box;
-  display: block;
-  font-size: 24px;
+.container{
+text-align: center;
+background-color: #9084802d;
+opacity: 0.6;
 }
+
 
 @media (max-width: 800px) {
   .App {
