@@ -21,3 +21,9 @@ input {
   font-size: 20px;
   margin-left: 204px;
 }
+
+.Dictionary .hint {
+  font-size: 11px;
+  margin-top: 5px;
+    margin-left: 204px;
+}
