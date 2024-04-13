@@ -17,7 +17,8 @@ function App() {
         <Dictionary />
       </main>
       <footer className="app-footer">
-        <small>coded by vera Vilas Boas </small>
+        <small>coded by vera Vilas Boas  <a href=”” > check my github </a> </small>
+        
       </footer>
     </div>
   );
