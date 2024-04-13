@@ -1,31 +1,27 @@
-.dictionary{
-text-align: center;
-max-width: 400px;
-display: block;
+.Dictionary section {
+  background-color: rgba(233, 233, 233, 0.835);
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 10px 10px 10px rgba(121, 121, 121, 0.12);
 }
-
-.icon{
-    width: 32px;
-margin: 24px;
-position: relative;
-  top: 60px;
-    right: -670px;
-
-padding: 4px;
-}
-
-
-
 .Dictionary input {
   width: 100%;
-  box-sizing: border-box;
-  display: block;
-  font-size: 20px;
-  margin-left: 204px;
+  padding: 6px 4px;
+  border: 1px solid rgba(73, 73, 73, 0.95);
+  opacity: 60%;
+  border-radius: 50px rgb(55, 55, 55)
 }
-
 .Dictionary .hint {
   font-size: 11px;
   margin-top: 5px;
-    margin-left: 204px;
+}
+.Dictionary h1 {
+  font-size: 30px;
+  text-align: center;
+}
+.Dictionary h2 {
+  font-size: 30px;
+  text-align: center;
+
 }
