@@ -18,7 +18,7 @@ function App() {
       <footer className="app-footer">
         <small>coded by vera Vilas Boas </small>
         <a
-          href="https://github.com/Verahvilasboas/dictionary-addone-week1" > gihub </a>
+          href="https://github.com/Verahvilasboas/dictionary-addone-week1" > github </a>
       </footer>
     </div>
   );
