@@ -9,16 +9,16 @@ function App() {
       <header className="App-header">
         <img src={bird} className="logo img-fluid" alt="logo" />
       </header>
-        <div className="container">
-    <h1>Dictionary</h1>
-    </div>
+      <div className="container">
+        <h1>Dictionary</h1>
+      </div>
       <main>
-
         <Dictionary />
       </main>
       <footer className="app-footer">
-        <small>coded by vera Vilas Boas  <a href=”” > check my github </a> </small>
-        
+        <small>coded by vera Vilas Boas </small>
+        <a
+          href="https://github.com/Verahvilasboas/dictionary-addone-week1" > gihub </a>
       </footer>
     </div>
   );
