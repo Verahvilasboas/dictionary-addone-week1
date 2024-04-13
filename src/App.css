@@ -3,23 +3,21 @@
   margin: 30px auto;
     display: block;
     border-radius: 36px;
-box-shadow:0 30px 50px rgba(114, 114, 114, 0.256); 
-
+box-shadow:0 30px 50px rgba(114, 114, 114, 0.441); 
 padding: 32px;
 }
 
 
 .App-header{
   margin: 30px 0;
-  max-width: 1000px;
+  max-width: 900px;
   box-shadow: 20px;
-  background-color: rgba(255, 255, 255, 0.449);
   text-align: center;
 }
 
 .logo{
-  size: 24px;
- max-width:200px;
+  size: 16px;
+ max-width:100px;
  display: block;
  margin: 0 auto;
 -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -27,30 +25,28 @@ padding: 32px;
       opacity: 0.5;
 }
 .logo:hover{
-
   opacity: 0.8;
-
 }
 
 
 .app-footer{
 
  font-size: 16px;
-  margin: 10px 0;
+  margin: 8px 0;
   font-weight: 400;
   text-align: center;
-  padding: 6px 0px;
+  padding: 4px 0px;
 backdrop-filter: blur(5px);
 background: transparent;
 }
 
 h1{
-  color: rgb(44, 44, 44);
+  color: rgb(0, 0, 0);
 }
 
 .container{
 text-align: center;
-background-color: #9084802d;
+
 opacity: 0.6;
 }
 
